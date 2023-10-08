@@ -16,6 +16,9 @@ module.exports  = {
     resolve: {
         extensions: ['.js','.jsx'],
     },
+    devServer: {
+        contentBase: path.resolve(__dirname, 'public'),
+    },
     module: {
         rules: [
             {
